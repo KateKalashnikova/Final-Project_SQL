@@ -15,6 +15,7 @@ The final project of MTA Database Fundamentals course.
 ### Relational view of the tables. 
 ![](relational.png)
 
-### Check for duplicate records. 
+### Check for duplicate records to comply with 1NF. 
 * This step was challenging as there are several methods to check for and delete duplicates and it required a thorough research to find the way that suited the best in my situation. I ended up using GROUP BY and HAVING COUNT(*) > 1 to check for duplicates and than if ound, delete them using MAX function. No duplicates found, 1NF complied.
+### Create views.
 * Several views were created using JOIN, for example, to show students who failed, who has rates 1-5, etc.
