@@ -22,6 +22,6 @@ The final project of MTA Database Fundamentals course.
 * Created consolidated table 'StudentsGrades' with Students, Exams, StudentAverage and grades rate (rate will be used to created views and sort students by their grade rates)
 ![](img/consolTable.png)
 * Views were created using JOIN, for example, to show students with A and B grades only, or students who failed.
-![](img/studentsAB.png)
-![](img/studentsF.png)
+![](img/studentAB.png)
+![](img/studentF.png)
 
