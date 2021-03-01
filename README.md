@@ -1,6 +1,6 @@
 # Final-Project_SQL
-The final project of MTA Database Fundamentals course
-##The Objective
+The final project of MTA Database Fundamentals course.
+## The Objective
 *	Use “Grade Record” dataset (either use the entire dataset or the first 50 record).
 *	Create a master table that will hold your entire dataset.
 *	Normalize the dataset into third normal form.
