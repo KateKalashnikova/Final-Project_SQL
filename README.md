@@ -1,5 +1,17 @@
 # Final-Project_SQL
-* Create new tables from Master Table. 
-* Normalize to 3 Normal Form (delete duplicates, assign PK/FK). 
-* Use SET/CASE to rate students grades
-* Create views using JOIN.
+The final project of MTA Database Fundamentals course
+##The Objective
+•	Use “Grade Record” dataset (either use the entire dataset or the first 50 record).
+•	Create a master table that will hold your entire dataset.
+•	Normalize the dataset into third normal form.
+•	Identify primary and foreign keys for your tables.
+•	Use JOIN to create a consolidated table.
+•	Present your code to class.
+##Implementation
+*Conceptual Design (ERD)
+the Master table was broken down into 3 tables: Students, Exams, Final Grades to comply with 2NF and 3NF
+![](ERD.png)
+
+* Relational Model
+![](relational.png)
+
