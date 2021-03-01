@@ -8,14 +8,20 @@ The final project of MTA Database Fundamentals course.
 *	Use JOIN to create a consolidated table.
 *	Present your code to class.
 ## Implementation
-### Conceptual Design (ERD). Define PKs and FKs to ensure referential integrity. 
+### Conceptual Design (ERD). 
 * the Master table was broken down into 3 tables: Students, Exams, Final Grades to comply with 2NF and 3NF
-![](ERD.png)
+* Identified primary and foreign keys for the tables.
+![](img/ERD.png)
 
 ### Relational view of the tables. 
-![](relational.png)
+![](img/relational.png)
 
 ### Check for duplicate records to comply with 1NF. 
 * This step was challenging as there are several methods to check for and delete duplicates and it required a thorough research to find the way that suited the best in my situation. I ended up using GROUP BY and HAVING COUNT(*) > 1 to check for duplicates and than if ound, delete them using MAX function. No duplicates found, 1NF complied.
-### Create views.
-* Several views were created using JOIN, for example, to show students who failed, who has rates 1-5, etc.
+### Use JOIN to create a consolidated table.
+* Created consolidated table 'StudentsGrades' with Students, Exams, StudentAverage and grades rate (rate will be used to created views and sort students by their grade rates)
+![](img/consolTable.png)
+* Views were created using JOIN, for example, to show students with A and B grades only, or students who failed.
+![](img/studentsAB.png)
+![](img/studentsF.png)
+
