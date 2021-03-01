@@ -9,10 +9,10 @@ The final project of MTA Database Fundamentals course.
 *	Present your code to class.
 ## Implementation
 ### Conceptual Design (ERD). Define PKs and FKs to ensure referential integrity. 
-the Master table was broken down into 3 tables: Students, Exams, Final Grades to comply with 2NF and 3NF
+* the Master table was broken down into 3 tables: Students, Exams, Final Grades to comply with 2NF and 3NF
 ![](ERD.png)
 
-### Relational Model. How db tables looked with all PKs and FKs assigned.
+### Relational view of the tables. 
 ![](relational.png)
 
 ### Check for duplicate records. 
