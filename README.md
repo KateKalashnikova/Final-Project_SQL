@@ -1,5 +1,5 @@
 # Final-Project_SQL
-The final project of MTA Database Fundamentals course at BVC. 
+The final project of Database Administration course at BVC Tech Skills Initiative program. 
 ## The Objective
 *	Use “Grade Record” dataset (either use the entire dataset or the first 50 record).
 *	Create a master table that will hold your entire dataset.
